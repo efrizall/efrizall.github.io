@@ -2,11 +2,19 @@
 	width: 200px;
 }
 
-.about hr{
+hr{
 	width: 250px;
 	border-top: 1px solid;
 }
 
 section{
-	min-height: 600px;
+	min-height: 1000px;
 }
+
+.portfolio{
+	background-color: #eee;
+}
+
+/*.portfolio img{
+	width: 200px;
+}*/
