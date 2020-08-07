@@ -7,12 +7,17 @@ hr{
 	border-top: 1px solid;
 }
 
-section{
-	min-height: 1000px;
+.about{
+	min-height: 700px;
 }
 
 .portfolio{
 	background-color: #eee;
+	min-height: 950px;
+}
+
+.contact{
+	min-height: 700px;
 }
 
 /*.portfolio img{
