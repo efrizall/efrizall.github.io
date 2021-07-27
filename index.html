@@ -1,158 +1,181 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css" />
 
     <title>My Portfolio</title>
   </head>
   <body>
-    <!-- Awal Jumbotron -->
-    <section class="jmbtrn">
-      <div class="jumbotron text-center">
-        <img src="img/Efrizal.jpg" class="rounded-circle">
-        <h1 class="mt-3">Efrizal</h1>
-        <p>Web Developer | Android Developer</p>
-      </div>
-    </section>
-    <!-- Akhir Jumbotron -->
-
-    <!-- Awal About -->
-    <section class="about" id="about">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow fixed-top">
       <div class="container">
-        <!-- row about -->
-        <div class="row">
-          <div class="col-sm-12">
-            <h2 class="text-center">About</h2>
-            <hr>
-          </div>
-        </div>
-        <!-- akhir row about -->
-
-        <!-- row isi about -->
-        <div class="row mt-5">
-          <div class="col-sm-4 offset-sm-2">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </div>
-          <div class="col-sm-4">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </div>
-          <!-- akhir row isi about -->
+        <a class="navbar-brand" href="#">Efrizal</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Jumbotron -->
+    <section id="home" class="jumbotron text-center">
+      <img src="img/Efrizal.jpg" alt="Me" width="200" class="rounded-circle img-thumbnail" style="margin-top: 50px" />
+      <h1 class="display-5 mt-3">Efrizal</h1>
+      <p class="lead">College Student</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,128L40,117.3C80,107,160,85,240,90.7C320,96,400,128,480,165.3C560,203,640,245,720,245.3C800,245,880,203,960,176C1040,149,1120,139,1200,133.3C1280,128,1360,128,1400,128L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
     </section>
-    <!-- Akhir About -->
+    <!-- Jumbotron -->
 
-    <!-- Awal Portfolio -->
-    <section class="portfolio" id="portfolio">
+    <!-- About -->
+    <section id="about">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <h2 class="text-center mt-5">Portfolio</h2>
-            <hr>
+        <div class="row text-center mb-4">
+          <div class="col">
+            <h2>About Me</h2>
           </div>
         </div>
-
-        <!-- isi Portfolio -->
-        <div class="row text-center mt-5">
-          <div class="col-sm-4">
-            <a href="">
-              <img src="img/dino/1.jpg" class="img-thumbnail">
-            </a>
-          </div>
-          <div class="col-sm-4">
-            <a href="">
-              <img src="img/dino/2.jpg" class="img-thumbnail">
-            </a>
-          </div>
-          <div class="col-sm-4">
-            <a href="">
-              <img src="img/dino/3.jpg" class="img-thumbnail">
-            </a>
-          </div>
+        <div class="row text-center justify-content-center fs-5">
+          <div class="col-sm-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quibusdam ullam id labore recusandae aliquid aperiam, voluptatibus possimus iure minima?</div>
+          <div class="col-sm-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium soluta sapiente quaerat ducimus nostrum qui necessitatibus nulla! Voluptatum at dolore modi error iusto optio quis!</div>
         </div>
-
-        <div class="row text-center mt-3">
-          <div class="col-sm-4">
-            <a href="">
-              <img src="img/dino/4.jpg" class="img-thumbnail">
-            </a>
-          </div>
-          <div class="col-sm-4">
-            <a href="">
-              <img src="img/dino/5.jpg" class="img-thumbnail">
-            </a>
-          </div>
-          <div class="col-sm-4">
-            <a href="">
-              <img src="img/dino/6.jpg" class="img-thumbnail">
-            </a>
-          </div>
-        </div>
-        <!-- akhir isi Portfolio -->        
-
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#e2edff"
+          fill-opacity="1"
+          d="M0,256L34.3,240C68.6,224,137,192,206,181.3C274.3,171,343,181,411,197.3C480,213,549,235,617,218.7C685.7,203,754,149,823,149.3C891.4,149,960,203,1029,192C1097.1,181,1166,107,1234,74.7C1302.9,43,1371,53,1406,58.7L1440,64L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg>
     </section>
-    <!-- Akhir Portfolio -->
+    <!-- About -->
 
-    <!-- Awal Contact -->
-    <section class="contact" id="contact">
+    <!-- Projects -->
+    <section id="projects" style="background-color: ">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <h2 class="text-center mt-5">Contact</h2>
-            <hr>
+        <div class="row text-center">
+          <div class="col mb-4">
+            <h2>My Projects</h2>
           </div>
         </div>
-
         <div class="row">
-          <div class="col-sm-8 offset-sm-2">
+          <!-- Card -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/dino/1.jpg" class="card-img-top" alt="Gambar 1" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/dino/2.jpg" class="card-img-top" alt="Gambar 2" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/dino/3.jpg" class="card-img-top" alt="Gambar 3" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,128L34.3,122.7C68.6,117,137,107,206,122.7C274.3,139,343,181,411,176C480,171,549,117,617,106.7C685.7,96,754,128,823,165.3C891.4,203,960,245,1029,272C1097.1,299,1166,309,1234,282.7C1302.9,256,1371,192,1406,160L1440,128L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Projects -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Contact</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
             <form>
-              <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Example: John">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" />
               </div>
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" class="form-control" id="email" placeholder="Example: John@gmail.com">
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" />
               </div>
-              <div class="form-group">
-                <label for="message">Message</label>
-                <textarea class="form-control" placeholder="Write Your Message Here" rows="3"></textarea>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
               </div>
               <button type="submit" class="btn btn-primary">Submit</button>
             </form>
           </div>
         </div>
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#0d6efd"
+          fill-opacity="1"
+          d="M0,128L34.3,133.3C68.6,139,137,149,206,144C274.3,139,343,117,411,138.7C480,160,549,224,617,224C685.7,224,754,160,823,149.3C891.4,139,960,181,1029,202.7C1097.1,224,1166,224,1234,218.7C1302.9,213,1371,203,1406,197.3L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg>
     </section>
-    
-    <!-- Akhir Contact -->
+    <!-- Contact -->
 
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center pb-2">
+      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/e.frizal/" class="text-white fw-bold">Efrizal</a></p>
+    </footer>
+    <!-- Footer -->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
