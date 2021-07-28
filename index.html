@@ -135,12 +135,14 @@
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" required />
+                <input class="form-control" type="email" name="email" placeholder="Email Address" />
               </div>
               <div class="mb-3">
                 <label for="message" class="form-label">Message</label>
                 <textarea class="form-control" id="message" rows="3" required></textarea>
               </div>
+              <input type="hidden" name="_next" value="https://efrizall.github.io/index.html" />
+              <input type="hidden" name="_subject" value="Portfolio Message!" />
               <button type="submit" class="btn btn-primary">Submit</button>
             </form>
           </div>
