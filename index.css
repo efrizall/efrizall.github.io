@@ -12,7 +12,7 @@ a {
 }
 
 .container-profile {
-  width: 390px;
+  width: 430px;
   height: 655px;
   box-sizing: border-box;
 }
@@ -28,11 +28,14 @@ a {
 
 .flex {
   display: flex;
-  justify-content: center;
 }
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.flex-center {
+  justify-content: center;
 }
 
 .bg-grey {
@@ -107,10 +110,10 @@ a {
 
 /* padding */
 .p-2 {
-  padding: 10px;
+  padding: 35px;
 }
 
 .p-3 {
-  padding: 20px;
+  padding: 45px;
 }
 /* end padding */
