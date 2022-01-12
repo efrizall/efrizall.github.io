@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css?family=Questrial");
+
+body {
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.container-profile {
+  width: 390px;
+  height: 655px;
+  box-sizing: border-box;
+}
+
+.container-content {
+  width: 90%;
+  box-sizing: border-box;
+}
+
+.border {
+  border: 2px solid white;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.bg-grey {
+  background-color: rgb(17, 17, 17);
+}
+
+.text-white {
+  color: white;
+}
+
+.text-yellow {
+  color: yellow;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.rounded {
+  border-radius: 100%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  width: 400px;
+  height: 150px;
+  padding-left: 20px;
+  padding-top: 10px;
+  /* box-sizing: border-box; */
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 1vh 0px;
+  padding: 0px 1px;
+}
+
+.bottom_section span {
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+/* margin */
+.ml-2 {
+  margin-left: 10px;
+}
+.ml-3 {
+  margin-left: 20px;
+}
+
+.mb-0 {
+  margin-bottom: -10px;
+}
+.mb-1 {
+  margin-bottom: 25px;
+}
+
+.mb-2 {
+  margin-bottom: 35px;
+}
+
+.mt-1 {
+  margin-top: 25px;
+}
+/* end margin */
+
+/* padding */
+.p-2 {
+  padding: 10px;
+}
+
+.p-3 {
+  padding: 20px;
+}
+/* end padding */
