@@ -11,6 +11,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: rgb(152, 152, 201);
+}
+
 .container-profile {
   width: 430px;
   height: 655px;
