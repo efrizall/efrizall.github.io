@@ -16,8 +16,8 @@ a:hover {
 }
 
 .container-profile {
-  width: 430px;
-  height: 655px;
+  width: 530px;
+  height: 763px;
   box-sizing: border-box;
 }
 
@@ -90,10 +90,14 @@ a:hover {
 
 /* margin */
 .ml-2 {
-  margin-left: 10px;
+  margin-left: 35px;
 }
 .ml-3 {
-  margin-left: 20px;
+  margin-left: 45px;
+}
+
+.ml-4 {
+  margin-left: 55px;
 }
 
 .mb-0 {
@@ -109,6 +113,14 @@ a:hover {
 
 .mt-1 {
   margin-top: 25px;
+}
+
+.mt-2 {
+  margin-top: 35px;
+}
+
+.mt-3 {
+  margin-top: 45px;
 }
 /* end margin */
 
